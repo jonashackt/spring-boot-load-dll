@@ -58,6 +58,9 @@
                 <groupId>com.nativelibs4java</groupId>
                 <artifactId>maven-jnaerator-plugin</artifactId>
                 <version>0.12</version>
+                <configuration>
+                    <javaOutputDirectory>${project.build.directory}/generated-sources/java/</javaOutputDirectory>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>

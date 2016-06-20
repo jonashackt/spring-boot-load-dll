@@ -1,0 +1,6 @@
+-gui
+-library Win32Demo
+-package de.jonashackt.win32demo
+-runtime JNA
+-Isrc/main/resources/dll/
+src/main/resources/dll/Win32Demo.h

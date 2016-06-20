@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "Win32DemoDll.h"
+#include "Win32Demo.h"
 #include <stdexcept>
 
 using namespace std;
