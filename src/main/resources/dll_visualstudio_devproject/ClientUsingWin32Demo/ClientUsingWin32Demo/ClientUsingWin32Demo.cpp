@@ -13,18 +13,18 @@ int main()
 	int b = 99;
 
 	cout << "a + b = " <<
-		MathFuncs::MyMathFuncs::Add(a, b) << endl;
+		Win32Demo::MathFuncs::Add(a, b) << endl;
 	cout << "a - b = " <<
-		MathFuncs::MyMathFuncs::Subtract(a, b) << endl;
+		Win32Demo::MathFuncs::Subtract(a, b) << endl;
 	cout << "a * b = " <<
-		MathFuncs::MyMathFuncs::Multiply(a, b) << endl;
+		Win32Demo::MathFuncs::Multiply(a, b) << endl;
 	cout << "a / b = " <<
-		MathFuncs::MyMathFuncs::Divide(a, b) << endl;
+		Win32Demo::MathFuncs::Divide(a, b) << endl;
 
 	try
 	{
 		cout << "a / 0 = " <<
-			MathFuncs::MyMathFuncs::Divide(a, 0) << endl;
+			Win32Demo::MathFuncs::Divide(a, 0) << endl;
 	}
 	catch (const invalid_argument &e)
 	{
